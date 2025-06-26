@@ -1,8 +1,37 @@
-# Dependencies and AdonisJS build output
-node_modules
+# 🌐 General system files
+.DS_Store
+Thumbs.db
+
+# 📝 Editor folders
+.idea/
+.vscode/
+.fleet/
+
+# 📦 Node dependencies
+node_modules/
 Frontend/node_modules/
 Backend/node_modules/
-build
-tmp
 
-# Secrets
+# 🏗️ Build folders
+build/
+dist/
+tmp/
+public/assets
+
+# ⚙️ Build tool logs
+npm-debug.log*
+yarn-error.log*
+
+# 🔐 Environment files
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# 🛠️ AdonisJS-specific
+Backend/.adonisrc.json
+Backend/tmp/
+Backend/build/
+
+# 🗃️ Otros archivos específicos
+parkingdb.ts
