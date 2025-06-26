@@ -1,27 +1,8 @@
-# Dependencies and AdonisJS build
+# Dependencies and AdonisJS build output
 node_modules
+Frontend/node_modules/
+Backend/node_modules/
 build
 tmp
 
 # Secrets
-.env
-.env.local
-.env.production.local
-.env.development.local
-
-# Frontend assets compiled code
-public/assets
-
-# Build tools specific
-npm-debug.log
-yarn-error.log
-
-# Editors specific
-.fleet
-.idea
-.vscode
-
-# Platform specific
-.DS_Store
-
-parkingdb.ts
